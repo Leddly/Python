@@ -1,6 +1,6 @@
 person = {'name': 'Jenn', 'age': 23}
 
-# setence = 'My name is {0[name]} and I am {0[age]} years old'.format(person)
+# sentence = 'My name is {0[name]} and I am {0[age]} years old'.format(person)
 # sentence = 'My name is {0} and I am {1} years old'.format(person['name'], person['age'])
 # sentence = 'My name is {} and I am {} years old'.format(person['name'], person['age'])
 sentence = 'My name is {name} and I am {age} years old'.format(**person)
