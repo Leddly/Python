@@ -54,3 +54,4 @@ print(emp3.__str__())
 my_date = datetime.date(2019, 10, 23)
 
 print(Employee.is_workday(my_date))
+print(emp1.is_workday(my_date))
