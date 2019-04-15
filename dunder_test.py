@@ -22,5 +22,6 @@ class Employee(object):
 emp1 = Employee('Corey', 'Schafer', 60000)
 emp2 = Employee('Test', 'Employee', 70000)
 
+print(emp1)
 print(emp1+emp2)
 print(emp1.__le__())

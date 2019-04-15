@@ -26,9 +26,9 @@ def people_generator(number):
         yield person
 
 
-# t1 = time.process_time()
-# people = people_list(1000000)
-# t2 = time.process_time()
+t1 = time.process_time()
+people = people_list(1000000)
+t2 = time.process_time()
 
 t1 = time.process_time()
 people = people_generator(1000000)

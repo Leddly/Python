@@ -22,15 +22,15 @@ people_string = '''
 
 # data = json.loads(people_string)
 #
-# # print(data)
+# print(data)
 #
 # for person in data['people']:
 #     print(person)
 #     del person['phone']
 #
-# new_data = json.dumps(data, indent=3, sort_keys=True)
+# new_data = json.dumps(data, indent=2, sort_keys=True)
 # print(new_data)
-
+#
 # with open('파일명', 'r') as f:
 #     data = json.loads(f)
 #

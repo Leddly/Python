@@ -4,8 +4,6 @@ import csv
 import sys
 import io
 import datetime
-import schedule
-from apscheduler.schedulers.blocking import BlockingScheduler
 import time
 
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')

@@ -8,10 +8,10 @@ sentence = 'My name is {name} and I am {age} years old'.format(**person)
 print(sentence)
 
 for i in range(1, 11):
-    sentence = 'The value is {:03}'.format(i)
+    sentence = f'The value is {i:03}'
     print(sentence)
 
 pi = 3.14195265
 
-print('Pi is {:.3f}'.format(pi))
-print('Data is {:,.3f}'.format(1000**2))
+print(f'Pi is {pi:.3f}')
+print(f'Data is {1000*30:,.3f}')
